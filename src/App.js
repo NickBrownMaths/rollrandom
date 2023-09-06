@@ -40,8 +40,6 @@ function App() {
       <div className='heading'>{currentItem}</div>
       <br /><br />
       <div className='bodyText'>{currentItemText}</div>
-
-
     </>
   );
 }

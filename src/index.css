@@ -1,40 +1,33 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont,'consolas';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
   background-color:black;
   color: gray;
-
   text-align: center;
-
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 .button {
   font-family: 'consolas';
-  font-size: x-large;
+  font-size: 2vmin;
   width: 15vmin;
   height: 5vmin;
   margin: 1vmin;
+  border-radius: 1vmin;
 }
 
 .largeButton{
   width: 50vmin;
   height: 15vmin;
   margin: 1vmin;
+  border-radius: 3vmin;
 }
 
 .heading{
-  font-size: x-large;
+  font-size: 3vmin;
 }
 
 .bodyText{
   margin-left: 10vw;
   margin-right: 10vw;
+  font-size: 2vmin;
 }
